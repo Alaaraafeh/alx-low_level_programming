@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * 2-print_alphabet_x10.c - check the code.
+ * print_alphabet_x10 - check the code.
  *
  * return: always 0.
  */
-void 2-print_alphabet_x10.c(void)
+void print_alphabet_x10(void)
 {
 	for (int i = 0; i < 10; i++)
 	{
