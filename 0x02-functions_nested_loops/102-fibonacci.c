@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- *  * main - prints the first 50 numbers of Fibonacci.
- *   * Return: void.
- *    */
+ * main - prints the first 50 numbers of Fibonacci.
+ * Return: void.
+ */
 int main(void)
 {
 	unsigned long i, j, next, counter;
