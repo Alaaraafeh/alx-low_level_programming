@@ -3,7 +3,7 @@
 /**
  * _strlen - check the code
  * @s: parameter
- * return: always 0.
+ * Return: always 0.
  */
 int _strlen(char *s)
 {
