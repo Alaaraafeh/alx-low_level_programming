@@ -60,14 +60,14 @@ int main(int argc, char *argv[])
 {
 	int mul;
 
-	mul = _atoi(argv[1]) * _atoi(argv[2]);
-	printf("%d\n", mul);
-
 	if (argc < 3 || argc > 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
+
+	mul = _atoi(argv[1]) * _atoi(argv[2]);
+	printf("%d\n", mul);
 
 	return (0);
 }
