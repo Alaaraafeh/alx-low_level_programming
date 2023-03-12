@@ -1,19 +1,14 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"		
 /**
- * print_its_name - check your code
- *
- * @argc: integer patameter that holled the number of things that enterd
- * in a command line when you running this program on a terminal
- * @argv: array (vector) parameter that holled a string value of the
- * things that was enterd the commed line when running this program
- *
- * Return: Always 0.
+ * main - prints the name of the program
+ * @argc: number of arguments
+ * @argv: array of arguments
+ * Return: Always 0 (Success)
  */
 
-int print_its_name(int argc, char *argv[])
+int main(int argc, char *argv[])			
 {
-	printf("%s\n", argv[0]);
-
+	printf("%s\n", *argv);
 	return (0);
 }
