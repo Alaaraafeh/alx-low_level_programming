@@ -23,5 +23,5 @@ char *create_array(unsigned int size, char c)
 	return (p);
 
 	if (p == NULL || size == 0)
-		return (NULL);
+		return ("failed to allocate memory");
 }
