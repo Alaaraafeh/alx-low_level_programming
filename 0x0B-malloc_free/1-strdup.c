@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
- * *_strdup: function that returns a
- * pointer to a newly allocated space in memory
+ * _strdup - duplicate to new memory space location
  *
  * @str: string parameter
  *
@@ -20,4 +20,5 @@ char *_strdup(char *str)
 	p = malloc(sizeof(str));
 	p = str;
 	return (p);
+	free(p);
 }
