@@ -13,8 +13,6 @@
 char *_strdup(char *str)
 {
 	char *p;
-	int i;
-	int j;
 
 	if (str == NULL)
 		return (NULL);
@@ -22,6 +20,6 @@ char *_strdup(char *str)
 		return (NULL);
 
 	p = malloc(sizeof(str));
-	p = str;
+	*p = str;
 	return (p);
 }
